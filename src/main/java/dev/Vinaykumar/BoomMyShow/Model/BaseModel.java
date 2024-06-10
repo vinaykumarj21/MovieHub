@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @MappedSuperclass
 public abstract class BaseModel {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID")
     private int id;
     private LocalDateTime createdAt;

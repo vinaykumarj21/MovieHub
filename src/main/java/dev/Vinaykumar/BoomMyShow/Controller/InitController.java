@@ -1,19 +1,20 @@
 package dev.Vinaykumar.BoomMyShow.Controller;
 
-import dev.Vinaykumar.BoomMyShow.Service.HelloAPIService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloAPIController {
+public class InitController {
 
     @Autowired
-    private HelloAPIService helloAPIService;
+    private InitService initService;
 
-    @GetMapping("/hello")
-    public ResponseEntity<String> greet(){
-        return ResponseEntity.ok(helloAPIService.greet());
+    @GetMapping("/init")
+    public ResponseEntity generateData() {
+        return ResponseEntity.ok(
+                initService.initialise()
+        );
     }
 }
