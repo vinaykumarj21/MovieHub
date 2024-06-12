@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.Vinaykumar</groupId>
-	<artifactId>BoomMyShow</artifactId>
+	<artifactId>MovieHub</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>BoomMyShow</name>
 	<description>BoomMyShow project using Spring Boot</description>
