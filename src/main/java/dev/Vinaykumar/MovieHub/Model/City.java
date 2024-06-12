@@ -12,6 +12,12 @@ import java.util.List;
 @Entity
 public class City extends BaseModel{
 
+    public City() {
+    }
+
+    public City(String cityName) {
+        this.cityName = cityName;
+    }
     private String cityName;
     @OneToMany
     private List<Theatre> theatres;

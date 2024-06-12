@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BoomMyShowApplication {
+public class MovieHubApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BoomMyShowApplication.class, args);
+		SpringApplication.run(MovieHubApplication.class, args);
 	}
 
 }

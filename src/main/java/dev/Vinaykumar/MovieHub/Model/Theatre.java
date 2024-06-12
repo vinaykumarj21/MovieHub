@@ -11,6 +11,13 @@ import java.util.List;
 @Entity
 public class Theatre extends BaseModel{
 
+    public Theatre() {
+    }
+
+    public Theatre(String theatreName, String theatreAddress) {
+        this.theatreName = theatreName;
+        this.theatreAddress = theatreAddress;
+    }
     private String theatreName;
     private String theatreAddress;
     @OneToMany
