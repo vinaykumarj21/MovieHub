@@ -1,5 +1,8 @@
 package dev.Vinaykumar.BoomMyShow.Controller;
 
+import dev.Vinaykumar.BoomMyShow.DTO.UserLoginRequestDTO;
+import dev.Vinaykumar.BoomMyShow.DTO.UserSignUpRequestDTO;
+import dev.Vinaykumar.BoomMyShow.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

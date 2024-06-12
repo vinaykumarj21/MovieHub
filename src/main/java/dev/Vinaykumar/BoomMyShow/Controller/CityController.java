@@ -1,6 +1,8 @@
 package dev.Vinaykumar.BoomMyShow.Controller;
 
+import dev.Vinaykumar.BoomMyShow.DTO.CityRequestDTO;
 import dev.Vinaykumar.BoomMyShow.Model.City;
+import dev.Vinaykumar.BoomMyShow.Service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

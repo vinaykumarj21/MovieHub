@@ -1,5 +1,7 @@
 package dev.Vinaykumar.BoomMyShow.Controller;
 
+import dev.Vinaykumar.BoomMyShow.DTO.TheatreRequestDTO;
+import dev.Vinaykumar.BoomMyShow.Service.TheatreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

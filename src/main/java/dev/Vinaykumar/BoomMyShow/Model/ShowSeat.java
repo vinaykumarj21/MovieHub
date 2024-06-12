@@ -16,6 +16,6 @@ public class ShowSeat extends BaseModel{
     @ManyToOne
     private Seat seat;
     @Enumerated(EnumType.STRING)
-    private ShowSeatStatus seatStatus;
+    private ShowSeatStatus showSeatStatus;
 
 }
